@@ -1,5 +1,5 @@
 const { hash, compare } = require("bcryptjs");
-const User = require("./userModel");
+const User = require("./usermodel");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 const { connect } = require('mongoose')
