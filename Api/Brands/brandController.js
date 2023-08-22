@@ -1,5 +1,5 @@
 const Brand = require ('./brandmodel')
-const { connect } = require('mongoose');
+const { connect } = require('mongoose')
 require('dotenv').config();
 
 const createBrand = async (req, res) => {
@@ -38,21 +38,31 @@ const createBrand = async (req, res) => {
   }
 };
 
-const getAllBrands = async (req, res) => {
 
+   
+   connect(process.env.MONGODB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  })
+    .then(() => {
+      console.log('Connected to MongoDB');
+    })
+    .catch(error => {
+      console.error('MongoDB connection error:', error);
+    });
+  
+  const getAllBrands = async (req, res) => {
     try {
-        await connect(process.env.MONGODB_URI)
-        const allBrands = await Brand.find()
-        res.json({
-            category: allBrands
-        })
+      const allBrands = await Brand.find();
+      res.json({
+        brands: allBrands
+      });
+    } catch (error) {
+      res.status(400).json({
+        message: error.message
+      });
     }
-    catch (error) {
-        res.status(400).json({
-            message: error.message
-        })
-    }
-}
+  };
 
 const getBrandByID = async (req, res) => {
 

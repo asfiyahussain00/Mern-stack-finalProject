@@ -1,11 +1,11 @@
-const { Schema, model } = require('mongoose')
 
-const brandSchema = new Schema({
+const mongoose = require('mongoose');
+
+const brandSchema = new mongoose.Schema({
   BrandName: {
     type: String,
     required: true,
-    unique:true
-    
+    unique: true
   },
   BrandImage: {
     type: String,
@@ -13,5 +13,6 @@ const brandSchema = new Schema({
   }
 });
 
-const Brand = model("Brand", brandSchema);
+const Brand = mongoose.model('Brand', brandSchema);
+
 module.exports = Brand;

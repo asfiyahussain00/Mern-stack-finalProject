@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const {createBrand , getAllBrands , getBrandByID , updateBrand , deleteBrand } = require('./brandController')
+const {createBrand , getAllBrands , getBrandByID , updateBrand , deleteBrand } = require('./brandcontroller')
 
 router.post('/createBrand' , createBrand)
 router.get('/getAllBrands' , getAllBrands)

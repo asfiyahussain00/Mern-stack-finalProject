@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const { signup, login, getAllUsers, getUserByEmail, getUserByID, deleteUser, updateUser } = require("./userController");
+const { signup, login, getAllUsers, getUserByEmail, getUserByID, deleteUser, updateUser } = require("./usercontroller");
 
 router.post('/signup', signup)
 router.post('/login', login)
