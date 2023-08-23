@@ -5,49 +5,49 @@ Project Live Link :
 ## Express.js
 
 
-signup:[https://localhost:3000/api/signup]()
+signup:[http://localhost:3000/api/signup]()
 
-Login: [https://localhost:3000/api/login]()
+Login: [http://localhost:3000/api/login]()
 
-GetAllUser:[https://localhost:3000/api/getallusers]()
+GetAllUser:[http://localhost:3000/api/getallusers]()
 
-GetUserBYEmail:[https://localhost:3000/api/getallusers]()
+GetUserBYEmail:[http://localhost:3000/api/getallusers]()
 
-Getuserbyid: [https://localhost:3000/api/getallusers]()
+Getuserbyid: [http://localhost:3000/api/getallusers]()
 
-Deleteuser:[https://localhost:3000/api/deleteuser]()
+Deleteuser:[http://localhost:3000/api/deleteuser]()
 
-updateuser:[https://localhost:3000/api/updateuser]()
+updateuser:[http://localhost:3000/api/updateuser]()
 
-getallCategories:[https://localhost:3000/api/getallCategories]()
+getallCategories:[http://localhost:3000/api/getallCategories]()
 
-getCategorybyid:[https://localhost:3000/api/getCategorybyid]()
+getCategorybyid:[http://localhost:3000/api/getCategorybyid]()
 
-createCategory:[https://localhost:3000/api/getCategorybyid]()
+createCategory:[http://localhost:3000/api/getCategorybyid]()
 
-updateCategory:[https://localhost:3000/api/updateCategory]()
+updateCategory:[http://localhost:3000/api/updateCategory]()
 
-createProduct:[https://localhost:3000/api/createProduct]()
+createProduct:[http://localhost:3000/api/createProduct]()
 
-Get-all-products:[https://localhost:3000/api/get-all-product]()
+Get-all-products:[http://localhost:3000/api/get-all-product]()
 
-get-product-by-name:[https://localhost:3000/api/get-product-by-name]()
+get-product-by-name:[http://localhost:3000/api/get-product-by-name]()
 
-get-product-by-id:[https://localhost:3000/api/get-product-by-id]()
+get-product-by-id:[http://localhost:3000/api/get-product-by-id]()
 
-get-product-by-brand:[https://localhost:3000/api/get-product-by-brand]()
+get-product-by-brand:[http://localhost:3000/api/get-product-by-brand]()
 
-get-product-by-category:[https://localhost:3000/api/get-product-by-category]()
+get-product-by-category:[http://localhost:3000/api/get-product-by-category]()
 
-update-product:[https://localhost:3000/api/update-product]()
+update-product:[http://localhost:3000/api/update-product]()
 
-delete-product:[https://localhost:3000/api/delete-product]()
+delete-product:[http://localhost:3000/api/delete-product]()
 
-createBrand:[https://localhost:3000/api/create-Brand]()
+createBrand:[http://localhost:3000/api/create-Brand]()
 
-getAllBrands:[https://localhost:3000/api/getAllBrands]()
+getAllBrands:[http://localhost:3000/api/getAllBrands]()
 
-getBrandById:[https://localhost:3000/api/getBrandById]()
+getBrandById:[http://localhost:3000/api/getBrandById]()
 
 updateBrand:[https://localhost:3000/api/updateBrand]()
 
